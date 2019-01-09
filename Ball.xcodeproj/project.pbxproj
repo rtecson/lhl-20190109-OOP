@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2AB2C76B21E6686D000A79E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2C76A21E6686D000A79E0 /* main.m */; };
+		2AB2C77321E668B7000A79E0 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2C77221E668B7000A79E0 /* Ball.m */; };
+		2AB2C77621E66A38000A79E0 /* BasketBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2C77521E66A38000A79E0 /* BasketBall.m */; };
+		2AB2C77921E66B28000A79E0 /* FootBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2C77821E66B28000A79E0 /* FootBall.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		2AB2C76721E6686D000A79E0 /* Ball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ball; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB2C76A21E6686D000A79E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AB2C77121E668B7000A79E0 /* Ball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		2AB2C77221E668B7000A79E0 /* Ball.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		2AB2C77421E66A38000A79E0 /* BasketBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasketBall.h; sourceTree = "<group>"; };
+		2AB2C77521E66A38000A79E0 /* BasketBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasketBall.m; sourceTree = "<group>"; };
+		2AB2C77721E66B28000A79E0 /* FootBall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootBall.h; sourceTree = "<group>"; };
+		2AB2C77821E66B28000A79E0 /* FootBall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootBall.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				2AB2C76A21E6686D000A79E0 /* main.m */,
+				2AB2C77121E668B7000A79E0 /* Ball.h */,
+				2AB2C77221E668B7000A79E0 /* Ball.m */,
+				2AB2C77421E66A38000A79E0 /* BasketBall.h */,
+				2AB2C77521E66A38000A79E0 /* BasketBall.m */,
+				2AB2C77721E66B28000A79E0 /* FootBall.h */,
+				2AB2C77821E66B28000A79E0 /* FootBall.m */,
 			);
 			path = Ball;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB2C77921E66B28000A79E0 /* FootBall.m in Sources */,
+				2AB2C77621E66A38000A79E0 /* BasketBall.m in Sources */,
+				2AB2C77321E668B7000A79E0 /* Ball.m in Sources */,
 				2AB2C76B21E6686D000A79E0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
